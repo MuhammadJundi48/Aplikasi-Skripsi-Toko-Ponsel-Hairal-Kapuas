@@ -1,0 +1,38 @@
+:root {
+  --bs-body-font-family: 'Poppins', sans-serif;
+  --bs-primary: #0d6efd;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #212529;
+}
+
+/* Card dan tombol */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.05);
+}
+
+.btn {
+  border-radius: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+  backdrop-filter: none !important; /* pastikan tidak blur kontennya */
+}
+
+.modal-backdrop {
+  backdrop-filter: none !important;
+  background-color: rgba(0, 0, 0, 0.5) !important; /* opsional: transparan gelap tanpa blur */
+}
